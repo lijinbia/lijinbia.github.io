@@ -8,5 +8,16 @@
 <p>
 身为一个只喜欢切切图、写写页面的专业前端，了解PS学会切图和了解页面的渲染原理是我们必不可少的职业技能；
 </p>
+ <p>
+   得到一个随机数 :
+   <span id="random_count"></span>
+   <button id="random_btn">随机</button>
+   
+   <script>
+      document.getElementById('random_btn').on('click', function() {
+          document.getElementById('random_count').innterText = '' + Math.round(Math.random() * 1000);
+      })
+   </script>
+</p>
 </body>
 </html>
