@@ -1,0 +1,21 @@
+{
+  "name": "lijinbia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:book": "cd book && npm run build && cd ../",
+    "dev:book": "cd book && npm run dev && cd ../",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijinbia/lijinbia.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lijinbia/lijinbia.github.io/issues"
+  },
+  "homepage": "https://github.com/lijinbia/lijinbia.github.io#readme"
+}
