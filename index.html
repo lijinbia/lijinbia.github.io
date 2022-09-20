@@ -14,8 +14,8 @@
    <button id="random_btn">随机</button>
    
    <script>
-      document.getElementById('random_btn').on('click', function() {
-          document.getElementById('random_count').innterText = '' + Math.round(Math.random() * 1000);
+      document.getElementById('random_btn').addEventListener('click', function() {
+          document.getElementById('random_count').innerText = '' + Math.round(Math.random() * 1000);
       })
    </script>
 </p>
